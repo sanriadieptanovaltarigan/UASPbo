@@ -1,0 +1,21 @@
+class Pemainbola{
+    String Nama;
+    String TempatTanggalLahir;
+    String Alamat;
+    String Status;
+}
+public class ObjectOrientedProgramming {
+    public static void main(String[] agrs) {
+        
+        Pemainbola Pemainbolaku= new Pemainbola();
+        Pemainbolaku.Nama="San Tarigan";
+        Pemainbolaku.TempatTanggalLahir="SaranPadang,01November2001";
+        Pemainbolaku.Alamat="Saran Padang";
+        Pemainbolaku.Status="Mahasiswa";
+        
+        System.out.println("Nama :"+Pemainbolaku.Nama);
+        System.out.println("TempatTanggalLahir :"+Pemainbolaku.TempatTanggalLahir);
+        System.out.println("Alamat :"+Pemainbolaku.Alamat);
+        System.out.println("Status : "+Pemainbolaku.Status);
+    }
+}
